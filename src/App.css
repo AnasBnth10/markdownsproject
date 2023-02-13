@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 30px;
+}
+
+.elements {
+  display: flex;
+}
+
+.element {
+  width: 50%;
+  
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  font-family: arial, sans-serif;
+  padding: 5px 10px;
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+.writingBox {
+  border: 1px solid gray;
+  
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border-radius: .25rem;
+}
+
